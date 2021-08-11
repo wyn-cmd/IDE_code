@@ -32,5 +32,21 @@ if(person_enter>max-1){      //Checks if reached limit of people allowed in the 
       delay(d);
     };
  ```
- 
- This code will check if the number of people reaches or exceeds the limit, if it does then it will activate the servo to turn and block the entery door from opening.
+
+This code will check if the number of people reaches or exceeds the limit, if it does then it will activate the servo to turn and block the entery door from opening.
+
+```objectivec
+person_enter=person_enter-1; //someone left
+    delay(600);
+```
+
+This part of the code checks if someone has exited the area, the delay is in place here to make sure that it registers one person at a time and not think that there is six people entering at once.
+
+```objectivec
+if(person_enter<max){        //Checks if below the limit of people allowed in the area
+      myservo.write(90);
+      delay(d);
+    };
+```
+
+This part of the code checks if the number of people in the area is less than the maximum amount of people in the area and if the number of people in the area is below the limit then it will make the servo move and allow the entry door to be opened.
