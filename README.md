@@ -64,3 +64,8 @@ if(person_enter<max){        // checks if below the limit of people allowed in t
 ```
 
 This part of the code checks if the number of people in the area is less than the maximum amount of people in the area and if the number of people in the area is below the limit then it will make the servo move and allow the entry door to be opened.
+
+
+
+## Serial
+The ```Serial.begin``` in the code is used to check if the variables in the code and the arduino are working, if one does not activate the Serial Monitor then the code will not run. Hence, there is a version of the code that has no ```Serial.begin``` and will be able to run with the parts and power source connected.
