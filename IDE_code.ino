@@ -30,6 +30,9 @@ void loop() {
   Serial.println(person_enter);
   Serial.println("")
   Serial.println("----end----");
+	Serial.println("");
+	Serial.println("");
+	Serial.println("");
   delay(5);
   if(person_enter<0){
     person_enter=0;
