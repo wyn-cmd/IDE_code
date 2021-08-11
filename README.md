@@ -15,6 +15,12 @@ The human brain can only rember so much after it starts to forget about what it 
 The arduino is a microcontroller which acts upon a fixed set of rules which is much more reliable in simple tasks like counting which is better suited for our purposes. This will eliminate human error in the task and make keeping to the Safe Management Measures much easier and simpler.
 
 
+* people can take a lot of money to hire
+
+
+With paying humans to keep track of the number of people, you have to pay them for how long htey keep track and as more time passes, you end up paying a large sum of money just to keep track of people in an area. The arduino is relativly cheap with some implementations using an Arduino Nano costing around a few dollars which is a one time cost and thanks to the low power consumption of the arduino, electricity costs aren't much of an issue.
+
+
 # How does the code work?
 The code works by checking the number of people as seen in here:
 
