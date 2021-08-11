@@ -34,7 +34,7 @@ void loop() {
   if(person_enter<0){
     person_enter=0;
   };
-	if(digitalRead(7)==1){
+  if(digitalRead(7)==1){
     person_enter=person_enter+1; // someone entered
     delay(600);
     if(person_enter>max-1){      // checks if reached limit of people allowed in the area
@@ -51,5 +51,6 @@ void loop() {
     };
   };
 }
+
 
 
