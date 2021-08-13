@@ -7,7 +7,6 @@ void setup() {
   pinMode(7,INPUT);              // enter pressure-plate
   pinMode(9,OUTPUT);
   myservo.attach(11);            // servo to block or allow the door to open
-  Serial.begin(2000000);
   for (pos=180;pos>=0;pos-=1) {  // goes from 180 degrees to 0 degrees
     myservo.write(pos);          // tell servo to go to position in variable pos
   };
@@ -16,8 +15,8 @@ void setup() {
 int person_enter=0;
 int max=3;                       // the limit of people allowed in the area
 void loop() {
-	int pos=0;
-	int d=14;
+  int pos=0;
+  int d=14;
   delay(5);
   if(person_enter<0){
     person_enter=0;
