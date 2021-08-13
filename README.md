@@ -10,7 +10,7 @@ The code is for an arduino with senses how many people have entered a room by pr
 * Human memory is not always reliable
 
 
-The human brain can only rember so much after it starts to forget about what it was trying to keep track of. Even if someone had very good memory and is very focused on the task, they might accidentally miss out someone or count one person more than there is.
+The human brain can only remeber so much after it starts to forget about what it was trying to keep track of. Even if someone had very good memory and is very focused on the task, they might accidentally miss out someone or count one person more than there is.
 
 The arduino is a microcontroller which acts upon a fixed set of rules which is much more reliable in simple tasks like counting which is better suited for our purposes. This will eliminate human error in the task and make keeping to the Safe Management Measures much easier and simpler.
 
