@@ -27,7 +27,8 @@ The code works by checking the number of people as seen in here:
 
 ```objectivec
 if(digitalRead(7)==1){
-    person_enter=person_enter+1; // someone entered
+    // someone entered
+    person_enter=person_enter+1; 
     delay(600);
 ```
 
@@ -36,7 +37,8 @@ This will check if the pressure-plate has been pressed down on and the `delay(60
 
 
 ```objectivec
-if(person_enter>max-1){      // checks if reached limit of people allowed in the area
+// checks if reached limit of people allowed in the area
+if(person_enter>max-1){      
       myservo.write(0);
       delay(d);
     };
@@ -47,7 +49,8 @@ This code will check if the number of people reaches or exceeds the limit, if it
 
 
 ```objectivec
-person_enter=person_enter-1; // someone left
+// someone left
+person_enter=person_enter-1; 
     delay(600);
 ```
 
@@ -57,7 +60,8 @@ This part of the code checks if someone has exited the area, the delay is in pla
 
 
 ```objectivec
-if(person_enter<max){        // checks if below the limit of people allowed in the area
+// checks if below the limit of people allowed in the area
+if(person_enter<max){        
       myservo.write(90);
       delay(d);
     };
