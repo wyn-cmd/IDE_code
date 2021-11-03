@@ -27,7 +27,7 @@ void loop() {
   if(person_enter<0){
     person_enter=0;
   };
-  if(digitalRead(7)==1){
+  if(digitalRead(2)==1){
     // someone entered
     person_enter=person_enter+1; 
     delay(600);
@@ -37,7 +37,7 @@ void loop() {
       delay(d);
     };
 	};
-  if(digitalRead(2)==1){
+  if(digitalRead(7)==1){
     // someone left
     person_enter=person_enter-1; 
     delay(600);
