@@ -19,20 +19,20 @@ void loop() {
 	int pos=0;
 	int d=14;
   Serial.println("---start---"); // serial monitor to check if it is working
-  Serial.println("")
+  Serial.println("");
   Serial.print("Digital Pin 7 (RED) (ENTER):  ");
   Serial.println(digitalRead(7));
-  Serial.println("")
+  Serial.println("");
   Serial.print("Digital Pin 2 (GREEN) (EXIT): ");
   Serial.println(digitalRead(2));
-  Serial.println("")
+  Serial.println("");
   Serial.print("No. of People: ");
   Serial.println(person_enter);
-  Serial.println("")
+  Serial.println("");
   Serial.println("----end----");
-	Serial.println("");
-	Serial.println("");
-	Serial.println("");
+  Serial.println("");
+  Serial.println("");
+  Serial.println("");
   delay(5);
   if(person_enter<0){
     person_enter=0;
@@ -54,6 +54,3 @@ void loop() {
     };
   };
 }
-
-
-
