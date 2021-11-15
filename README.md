@@ -1,5 +1,5 @@
 # IDE_code
-Code for Greendale Secondary School IDE Maker project.
+Code for Greendale Secondary School IDE Maker project team DnF.
 
 
 # What is it?
