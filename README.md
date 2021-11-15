@@ -1,5 +1,5 @@
 # IDE_code
-Code for school IDE project.
+Code for Greendale Secondary School IDE Maker project.
 
 
 # What is it?
@@ -73,3 +73,5 @@ This part of the code checks if the number of people in the area is less than th
 
 ## Serial
 The ```Serial.begin``` in the code is used to check if the variables in the code and the arduino are working, if one does not activate the Serial Monitor then the code will not run. Hence, there is a version of the code that has no `Serial.begin;` and will be able to run with the parts and power source connected.
+
+   by Wynston Wong Jun De
