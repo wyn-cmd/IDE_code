@@ -28,8 +28,8 @@ void loop() {
   if (person_enter < 0) {
     person_enter = 0;
   }
-  if (digitalRead(2) == 1) {
-    // someone entered
+if (digitalRead(2) == 1) {
+    // someone exited
     person_enter = person_enter + 1;
     delay(600);
     // checks if reached limit of people allowed in the area
